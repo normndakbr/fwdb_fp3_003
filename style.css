@@ -1,0 +1,670 @@
+
+.header{
+    /* membuat header tidak bergerak position dibuat fixed */
+    position: fixed;   
+    z-index:1000;           
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.header-right{
+    margin-left: 50%;
+    margin-top: 15px;
+}
+
+.header-right > .nav> .nav-item >a  {
+    margin-left: 25px;
+    float: left;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-family: basic;
+    font-weight: normal;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 12px;
+   
+    
+}
+
+
+#cursor{
+    color: #FFFFFF;
+}
+#cursor:hover{
+    color: black;
+}
+
+
+/* button contact pada header */
+.header-right > .nav >.nav-item>#cursor>a{
+position: absolute;
+width: 130px;
+height: 50px;
+left: 1199px;
+top: 18px;
+color:#FFFFFF;
+background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+
+
+
+.hero-container{
+    height: 470px;
+    padding:0 10px; 
+    display:flex;
+}
+.hero-container > .jumbotron{
+    /* height: 120px;
+    padding:0 50px;
+    margin-top: 250px; */
+
+    position: absolute;
+width: 571.81px;
+height: 298.78px;
+left: 784.55px;
+top: 335.14px;
+}
+
+
+
+.hero-container > div{
+width: 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.hero-container h1{
+    position: absolute;
+width: 531px;
+height: 366px;
+left: 135px;
+top: 252px;
+
+font-family: Basic;
+font-style: normal;
+font-weight: normal;
+font-size: 97px;
+line-height: 122px;
+color: #020E35;
+}
+
+.hero-container p{
+    font-size: 30px;
+    color: var(--gray);
+}
+
+.hero-container>img{
+    width: 50%;
+    height: 323px;
+    align-self: center;
+    
+}
+
+.hero-container> button{
+position: absolute;
+width: 140px;
+height: 40px;
+left: 135px;
+top: 600px;
+color:#FFFFFF;
+
+background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+
+.hero-container> img{
+    position: absolute;
+    
+    width: 400px;
+    height: 276px;
+    left: -144px;
+    top: 722px;
+    
+   
+}
+
+
+#about >h2{
+    position: absolute;
+    width: 155px;
+    height: 50px;
+    left: 644px;
+    top: 785px;
+    
+    font-family: Basic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    
+    color: #020E35;
+}
+
+/* desain untuk description container */
+
+.description-container > p{
+    position: absolute;
+    width: 823px;
+    height: 75px;
+    left: 308px;
+    top: 860px;
+    
+    font-family: Basic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    
+    color: #2B2B2B;
+    
+   
+}
+
+#services > h2{
+position: absolute;
+width: 365px;
+height: 50px;
+left: 538px;
+top: 1057px;
+
+font-family: Basic;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 50px;
+text-align: center;
+
+color: #020E35;
+
+}
+
+.description-container > div{
+width: 60%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.1);
+border-top: 1px solid rgb(238, 238, 238);
+}
+
+.content-container{
+    min-height: 400px;
+    /* background: green; */
+    margin: 40px 0;
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    }
+
+.content-container .card{
+    /* background: rgb(85, 85, 92); */
+    height: 100%;
+
+}
+.card1,.card2, .card3{
+    position: absolute;
+    width: 377px;
+    height: 583px;
+    left: 135px;
+    top: 1157px;
+
+    background: #FDF8E3;
+    }
+    
+    
+.card1 > .card-body>button, .card2 > .card-body>button, .card3 > .card-body>button{
+    position: flex;
+    width: 35%;
+    height: 40px;
+    margin-left:110px;
+    margin-top: 40px;
+    color: #FFFFFF;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    }
+
+.card2{
+    left: 532px;
+    background:#F0F3FA;
+    }
+
+.card3{
+    left: 929px; 
+    
+    background: #FEEFF0;       
+    }
+
+.path2{
+    position: absolute;
+    width: 15px;
+    height: 30px;
+    left: 1358px;
+    top: 1434px;
+    border: 1px;
+
+    border: 3px solid #FFFFFF;
+
+    }
+
+#ourwork>h2
+{
+    position: absolute;
+    width: 161px;
+    height: 50px;
+    left: 641px;
+    top: 1840px;
+    
+    font-family: Basic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+    .box1{
+    position: absolute;
+    width: 100%;
+    height: 2392px;
+    left: 0px;
+    top: 1449px;
+
+    background: #020E35;
+    }
+
+    .box2{
+    position: absolute;
+    width: 587px;
+    height: 390px;
+    left: 135px;
+    top: 1951px;
+
+    background: #F09532;
+    }
+
+    .box3{
+    position: absolute;
+    width: 587px;
+    height: 390px;
+    left: 719px;
+    top: 2411px;
+
+    background: #8C32F0;
+    }
+
+
+
+    .box4{
+    position: absolute;
+    width: 587px;
+    height: 390px;
+    left: 135px;
+    top: 2871px;
+
+    background: #E73587;
+
+    }
+
+    .box5{
+    position: absolute;
+    width: 587px;
+    height: 390px;
+    left: 719px;
+    top: 3311px;
+
+    background: #32D6F0;
+    }
+
+    .box10{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    left: 135px;
+    top: 0px;
+
+    background: #020E35;
+    }
+    .box11{
+    position: absolute;
+    width: 100px;
+    height: 6px;
+    left: 135px;
+    top: 114px;
+
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+
+    }
+
+    .duck{
+
+    position: absolute;
+    width: 38.97px;
+    height: 40.47px;
+    left: 163px;
+    top: 27px;
+    }
+    /* .duck >span{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 163px;
+    top: 27px;
+    } */
+    /* .duck.sticky{
+        position: absolute;
+        width: 20px;
+        height: 20px; 
+        left: 163px;
+        top: 27px;
+    } */
+
+    .katabox2 >h3{
+    position: absolute;
+    width: 158px;
+    height: 38px;
+    left: 742px;
+    top: 1951px;
+
+    font-family: Basic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    }
+
+    .katabox2 >h4{
+    position: absolute;
+    width: 1000px;
+    height: 19px;
+    left: 742px;
+    top: 2005px;
+
+    font-family: Basic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 3px;
+
+    color: #FFFFFF;
+    }
+
+    .katabox2 >p{
+    position: absolute;
+    width: 492px;
+    height: 80px;
+    left: 742px;
+    top: 2073px;
+
+    font-family: Basic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+
+    }
+
+    .katabox3 >h3{
+    position: absolute;
+    width: 158px;
+    height: 38px;
+    left: 541px;
+    top: 2411px;
+
+    font-family: Basic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #FFFFFF;
+
+    }
+
+    .katabox3 >h4{
+
+    position: absolute;
+    width: 400px;
+    height: 19px;
+    left: 300px;
+    top: 2465px;
+
+    font-family: Basic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: 3px;
+
+    color: #FFFFFF;
+
+    }
+
+    .katabox3 >p{
+
+    position: absolute;
+    width: 492px;
+    height: 80px;
+    left: 207px;
+    top: 2533px;
+
+    font-family: Basic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+
+    color: #FFFFFF;
+
+    }
+
+    .katabox4 >h3{
+    position: absolute;
+    width: 158px;
+    height: 38px;
+    left: 742px;
+    top: 2871px;
+
+    font-family: Basic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    }
+
+    .katabox4 >h4{
+    position: absolute;
+    width: 1000px;
+    height: 19px;
+    left: 742px;
+    top: 2925px;
+
+    font-family: Basic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 3px;
+
+    color: #FFFFFF;
+
+
+    }
+
+    .katabox4 >p{
+
+    position: absolute;
+    width: 492px;
+    height: 80px;
+    left: 742px;
+    top: 2993px;
+
+    font-family: Basic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+    }
+
+    .katabox5 >h3{
+    position: absolute;
+    width: 158px;
+    height: 38px;
+    left: 541px;
+    top: 3311px;
+
+    font-family: Basic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #FFFFFF;
+
+
+    }
+
+    .katabox5 >h4{
+    position: absolute;
+    width: 400px;
+    height: 19px;
+    left: 300px;
+    top: 3365px;
+
+    font-family: Basic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: 3px;
+
+    color: #FFFFFF;  
+
+    }
+
+    .katabox5 >p{
+    position: absolute;
+    width: 492px;
+    height: 80px;
+    left: 207px;
+    top: 3433px;
+
+    font-family: Basic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+
+    color: #FFFFFF;
+
+
+    }
+
+    .buttonallwork >button{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 43%;
+    
+    top: 3770px;
+
+    color: #FFFFFF;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    }
+
+    #boxcontact{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 3900px;
+
+    background: #FFFFFF;
+    }
+
+.row{
+    position: absolute;
+    width: 85%;
+    align-items: center;
+    margin-top: 3000px;
+    margin-left: 87px;
+}
+
+.row > .col-6 > .teks {
+    
+    width: 100%;
+    font-size: 30px;
+    color: #020E35;
+}
+.row > .col-6 > .teks >h1 {
+
+font-size: 90px;
+}
+
+.row> .col-6> button{
+    position: absolute;
+    width: 48%;
+    height: 50px;
+    color:#FFFFFF;
+
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+
+.boxfooter{
+    position: absolute;
+    width: 1440px;
+    height: 25px;
+    left: 0px;
+    top: 4531px;
+    
+    background: #020E35;
+    color: white;
+    
+}
