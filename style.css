@@ -1,4 +1,33 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+
+body{
+    font-family: 'Basic', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+
+}
+
+.nav-icon svelte-1wmqyvr scrolled {
+    position: absolute;
+    top: 0;
+}
+.navbar-brand>img{
+  
+       
+        position: absolute;
+        width: 100px;
+        height: 120px;
+        left: 135px;
+        top: 0px;
+    
+        background: #020E35;
+}
+
+
+
+
 .header{
     /* membuat header tidak bergerak position dibuat fixed */
     position: fixed;   
@@ -21,6 +50,7 @@
 
 .header-right > .nav> .nav-item >a  {
     margin-left: 25px;
+    margin-top: -22px;
     float: left;
     text-align: center;
     color: black;
@@ -44,15 +74,20 @@
 
 
 /* button contact pada header */
-.header-right > .nav >.nav-item>#cursor>a{
+.header-right > .nav >.nav-item>button{
 position: absolute;
 width: 130px;
 height: 50px;
 left: 1199px;
 top: 18px;
+margin-top: auto;
 color:#FFFFFF;
 background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
 }
+.header-right > .nav >.nav-item>button:hover{
+    width: 135px;
+    height: 55px;
+    }
 
 
 
@@ -82,9 +117,10 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 
+
 }
 
-.hero-container h1{
+.hero-container> h1{
     position: absolute;
 width: 531px;
 height: 366px;
@@ -133,8 +169,7 @@ background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
    
 }
 
-
-#about >h2{
+.aboutus >h2{
     position: absolute;
     width: 155px;
     height: 50px;
@@ -172,12 +207,15 @@ background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
    
 }
 
-#services > h2{
+
+
+.services>h2{
 position: absolute;
 width: 365px;
 height: 50px;
 left: 538px;
-top: 1057px;
+top: 960px;
+
 
 font-family: Basic;
 font-style: normal;
@@ -199,16 +237,16 @@ flex-direction: column;
 box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.1);
 border-top: 1px solid rgb(238, 238, 238);
 }
-
-.content-container{
+/* 
+#card>.content-container{
     min-height: 400px;
     /* background: green; */
-    margin: 40px 0;
+    /* margin: 40px 0;
     padding: 0 10%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 30px;
-    }
+    gap: 30px; */
+     
 
 .content-container .card{
     /* background: rgb(85, 85, 92); */
@@ -218,7 +256,7 @@ border-top: 1px solid rgb(238, 238, 238);
 .card1,.card2, .card3{
     position: absolute;
     width: 377px;
-    height: 583px;
+    height: 500px;
     left: 135px;
     top: 1157px;
 
@@ -259,13 +297,14 @@ border-top: 1px solid rgb(238, 238, 238);
 
     }
 
-#ourwork>h2
+.portfolio>h2
 {
     position: absolute;
     width: 161px;
     height: 50px;
     left: 641px;
     top: 1840px;
+    margin-top: auto;
     
     font-family: Basic;
     font-style: normal;
@@ -330,21 +369,12 @@ border-top: 1px solid rgb(238, 238, 238);
     background: #32D6F0;
     }
 
-    .box10{
-    position: absolute;
-    width: 100px;
-    height: 120px;
-    left: 135px;
-    top: 0px;
-
-    background: #020E35;
-    }
     .box11{
     position: absolute;
     width: 100px;
     height: 6px;
     left: 135px;
-    top: 114px;
+    top: 119px;
 
     background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
 
@@ -610,26 +640,27 @@ border-top: 1px solid rgb(238, 238, 238);
     .buttonallwork >button{
     position: absolute;
     width: 150px;
-    height: 30px;
+    height: 40px;
     left: 43%;
     
-    top: 3770px;
+    top: 3760px;
+    
 
     color: #FFFFFF;
     background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
     }
 
-    #boxcontact{
+    .contactus{
     position: absolute;
     width: 100%;
     height: 100px;
     left: 0px;
-    top: 3900px;
+    top: 1000px;
 
     background: #FFFFFF;
     }
 
-.row{
+.contactus>.row{
     position: absolute;
     width: 85%;
     align-items: center;
@@ -637,27 +668,27 @@ border-top: 1px solid rgb(238, 238, 238);
     margin-left: 87px;
 }
 
-.row > .col-6 > .teks {
+.contactus>.row > .col-6 > .teks {
     
     width: 100%;
     font-size: 30px;
     color: #020E35;
 }
-.row > .col-6 > .teks >h1 {
+.contactus>.row > .col-6 > .teks >h1 {
 
 font-size: 90px;
 }
 
-.row> .col-6> button{
+.contactus>.row> .col-6>button{
     position: absolute;
-    width: 48%;
+    width: 95%;
     height: 50px;
     color:#FFFFFF;
 
     background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
 }
 
-.boxfooter{
+.footer{
     position: absolute;
     width: 1440px;
     height: 25px;
